@@ -1,9 +1,9 @@
 import { Link, NavLink } from "react-router";
-
+import "./Header.css";
 export default function Header() {
   return (
     <div>
-                  <header className="header">
+                  <header className="header comp">
         <h1><Link to="/">Web Dev Roadmap</Link></h1>
         <ul className="flex">
           <li className="main-list">
