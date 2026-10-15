@@ -6,7 +6,7 @@ export default function Framework() {
     <div>
           <Header/>      
       <main className="page-content">
-      FrameWorks Pages
+      Framework Pages
       </main>
   <Footer/>
     </div>
