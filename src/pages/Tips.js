@@ -1,33 +1,14 @@
+import Footer from "../component/Footer";
+import Header from "../component/Header";
+
 export default function Tips() {
   return (
     <div>
-            <header className="header">
-        <h1>Web Dev Roadmap</h1>
-        <ul className="flex">
-          <li className="main-list">
-            <a className="main-link" href="www">
-              Basics
-            </a>
-          </li>
-          <li className="main-list">
-            <a className="main-link" href="www">
-              Frameworks
-            </a>
-          </li>
-          <li className="main-list">
-            <a className="main-link" href="www">
-              Tips
-            </a>
-          </li>
-        </ul>
-      </header>
-      <main className="hero-section">
+      <Header/>
+      <main className="page-content">
       Tips Pages
       </main>
-      <footer>
-        React Courseee - Level 1 (session 1)
-        <span>🧡</span>
-      </footer>
+  <Footer/>
     </div>
   )
 }
