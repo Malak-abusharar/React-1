@@ -1,4 +1,4 @@
-.footer footer {
+footer {
   background-color: #19a8e3;
   padding: 20px 0;
   text-align: center;
@@ -10,6 +10,6 @@
   width: 100%;
 }
 
-.footer .comp{
-  background-color: hotpink;
+#hello{
+  background-color: yellow;
 }
