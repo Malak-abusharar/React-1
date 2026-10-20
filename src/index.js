@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Basic from './pages/Basic';
 import Framework from './pages/Framework';
 import Tips from './pages/Tips';
+import { HelmetProvider } from 'react-helmet-async';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 const router = createBrowserRouter([
   {
@@ -31,9 +33,12 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+      <HelmetProvider>
          <RouterProvider router={router} />
+         </HelmetProvider>
   </React.StrictMode>
 );
+serviceWorkerRegistration.register();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
